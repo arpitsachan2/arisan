@@ -37,7 +37,7 @@ export default function Hero({ cartCount }) {
         </p>
 
         <h1 className="heading-font fade-in-delay-1 mt-4 max-w-2xl text-4xl font-black leading-tight text-white sm:text-5xl md:text-[52px]">
-          Clean Spaces, Clear Minds.
+          Clean Spacesaa, Clear Minds.
         </h1>
 
         <p className="fade-in-delay-2 mt-5 max-w-lg text-base leading-7 text-emerald-100 md:text-lg">
