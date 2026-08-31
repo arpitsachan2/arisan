@@ -5,21 +5,17 @@ import {
 } from "lucide-react";
 
 const trustItems = [
-  {
-    icon: FlaskConical,
-    title: "Lab Tested",
-    text: "Every product passes 12-point quality checks before reaching your home.",
-  },
+  // {
+  //   icon: FlaskConical,
+  //   title: "Lab Tested",
+  //   text: "Every product passes 12-point quality checks before reaching your home.",
+  // },
   {
     icon: Truck,
     title: "Free Delivery",
     text: "On all orders above ₹499, delivered across India in 3–5 days.",
   },
-  {
-    icon: Recycle,
-    title: "Eco Friendly",
-    text: "Biodegradable formulas and fully recyclable packaging.",
-  },
+  
 ];
 
 export default function TrustSection() {

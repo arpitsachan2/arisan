@@ -1,4 +1,5 @@
 import { ShoppingCart } from "lucide-react";
+import heroimg from "../assets/ChatGPT Image Aug 28, 2026, 12_19_38 PM.png";
 
 export default function Hero({ cartCount }) {
   return (
@@ -7,7 +8,7 @@ export default function Hero({ cartCount }) {
       <div className="absolute inset-0">
         <img
           className="h-full w-full object-cover"
-          src="https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src={heroimg}
           alt="Modern kitchen interior"
         />
 
@@ -40,10 +41,10 @@ export default function Hero({ cartCount }) {
           Clean Spacesww, Clear Minds.
         </h1>
 
-        <p className="fade-in-delay-2 mt-5 max-w-lg text-base leading-7 text-emerald-100 md:text-lg">
+        {/* <p className="fade-in-delay-2 mt-5 max-w-lg text-base leading-7 text-emerald-100 md:text-lg">
           India's fastest-growing cleaning brand. Trusted by 50,000+ households
           for powerful, eco-conscious formulas.
-        </p>
+        </p> */}
 
         <a
           href="#products"

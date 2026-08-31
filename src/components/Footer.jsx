@@ -7,10 +7,10 @@ export default function Footer({ onAddToCart }) {
         Ready for a Cleaner Home?
       </h2>
 
-      <p className="mx-auto mt-4 max-w-md leading-7 text-emerald-200">
+      {/* <p className="mx-auto mt-4 max-w-md leading-7 text-emerald-200">
         Join 50,000+ Indian households who trust Arisan for a
         spotless, fresh-smelling home every day.
-      </p>
+      </p> */}
 
       <button
         onClick={() => onAddToCart("Bundle Pack")}

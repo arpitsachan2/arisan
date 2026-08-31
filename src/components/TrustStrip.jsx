@@ -6,22 +6,22 @@ import {
 } from "lucide-react";
 
 const items = [
-  {
-    icon: ShieldCheck,
-    text: "Lab Tested Formulas",
-  },
+  // {
+  //   icon: ShieldCheck,
+  //   text: "Lab Tested Formulas",
+  // },
   {
     icon: Truck,
     text: "Free Delivery ₹499+",
   },
-  {
-    icon: Leaf,
-    text: "100% Biodegradable",
-  },
-  {
-    icon: Star,
-    text: "50,000+ Happy Homes",
-  },
+  // {
+  //   icon: Leaf,
+  //   text: "100% Biodegradable",
+  // },
+  // {
+  //   icon: Star,
+  //   text: "50,000+ Happy Homes",
+  // },
 ];
 
 export default function TrustStrip() {
